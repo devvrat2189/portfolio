@@ -1,0 +1,116 @@
+body {
+     background-color: rgb(255, 251, 219);
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     margin: 0;
+     /* border: 3px solid red; */
+}
+
+#top {
+     padding-top: 10px;
+}
+
+hr{
+     width: 60%;
+}
+
+#top p{
+     font-size: 25px;
+}
+
+#top span{
+     text-shadow: 3px 3px 5px rgb(255, 76, 5);
+}
+
+#top h1, #top p{
+     text-align: center;
+}
+
+#top img {
+     display: block;
+     margin: 10px auto;
+     width: 150px;
+     border-radius: 100%;
+     box-shadow: 3px 3px 5px rgb(255, 76, 5);
+}
+
+/* main section */
+
+/* main section skills start */
+
+#skills{
+     /* border:  1px solid black; */
+     max-width: 60%;
+     margin: 10px auto;
+     padding: 10px
+}
+
+#skills li{
+     text-transform: uppercase;
+}
+
+/* main section skills end */
+
+/* main section project start */
+#project{
+     max-width: 60%;
+     margin: 10px auto;
+     padding: 10px;
+}
+/* main section project end */
+
+/* experience start */
+#experience{
+     max-width: 60%;
+     margin: 10px auto;
+     padding: 10px;
+}
+/* experience end */
+
+/* contact start */
+#contact{
+     max-width: 60%;
+     margin: 10px auto;
+     padding: 10px;
+}
+/* contact end */
+
+
+/* main section education start */
+#education{
+     max-width: 60%;
+     margin: 10px auto;
+     padding: 10px;
+}
+/* main section education end */
+main ul li{
+     margin-bottom: 5px;
+}
+
+#contact a{
+     text-decoration: none;
+}
+
+address{
+     /* border: 1px solid black; */
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+}
+
+address a{
+     width: 150px;
+     /* border: 1px solid black; */
+     padding: 10px 20px;
+     display: flex;
+     justify-content:flex-start;
+     align-items: center;
+}
+
+address span{
+     margin-left: 10px;
+}
+
+address img{
+     width: 28px;
+}
+
